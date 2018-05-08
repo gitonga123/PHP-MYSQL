@@ -1,8 +1,9 @@
 <?php
-namespace Bookstore\Domain;
 /**
 * Customer Class
 */
+namespace Bookstore\Domain;
+
 class Customer
 {
 	private static $lastId = 0;
