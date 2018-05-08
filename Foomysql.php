@@ -4,7 +4,7 @@ namespace Bookstore\foomysqli;
 /**
  * mysql connection
  */
-class Foo_mysqli extends mysqli
+class Foo_Mysqli extends mysqli
 {
 	
 	function __construct($host,$user,$pass,$db)
