@@ -22,9 +22,17 @@ Databases
 
 	- Adding fields on a table you can specify the position to First or After <other Field>
 
-		```sh
-		ALTER TABLE *** ADD COLUMN <NAME> <DATATYPE> <ATTRIBUTES> <POSITION>
-		```
+	
+	- ALTER TABLE *** ADD COLUMN <NAME> <DATATYPE> <ATTRIBUTES> <POSITION>
+		
 
 # PHP Data Objects (PDO)
+
+	class that connects to the database and allows you to interact with it.
+
+	Not tied to MySQL only. 
+
+
+	
+
 
