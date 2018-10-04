@@ -25,3 +25,9 @@
 //
 //var_dump($customer1::getLastId());
 //var_dump(Customer::getLastId());
+
+$object = new stdClass();
+
+$object->name = 'John';
+
+echo $object->name;

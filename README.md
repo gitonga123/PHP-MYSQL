@@ -32,6 +32,11 @@ Databases
 
 	Not tied to MySQL only. 
 
+#OOP IN PHP
+    For modular structure for your application
+    Easy to maintain
+    Code Re-use 
+
 
 	
 
