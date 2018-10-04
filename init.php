@@ -25,13 +25,21 @@
 //
 //var_dump($customer1::getLastId());
 //var_dump(Customer::getLastId());
-require 'Person.php';
-$object = new stdClass();
+//require 'Person.php';
+//$object = new stdClass();
+//
+//$object->name = 'John';
+//
+//echo $object->name;
 
-$object->name = 'John';
+//$person1 = new Person("James Warungu", 35);
+//
+//$person1->sentence();
 
-echo $object->name;
+require 'Pigeon.php';
 
-$person1 = new Person("James Warungu", 35);
+$pigeon = new Pigeon(true, 2);
 
-$person1->sentence();
+if ($pigeon->isCanFly()) {
+    echo "can fly";
+}
