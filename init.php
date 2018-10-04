@@ -36,10 +36,16 @@
 //
 //$person1->sentence();
 
-require 'Pigeon.php';
+// Dependency Injection
+require 'Lock.php';
+require 'Chest.php';
 
-$pigeon = new Pigeon(true, 2);
+// $pigeon = new Pigeon(true, 2);
 
-if ($pigeon->isCanFly()) {
-    echo "can fly";
-}
+// if ($pigeon->isCanFly()) {
+//     echo "can fly";
+// }
+
+$chest = new Chest(new Lock);
+
+$chest->close();
