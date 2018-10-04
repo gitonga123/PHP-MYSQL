@@ -11,6 +11,7 @@ class Person
    public $name;
    public $age;
 
+   //magic methods
    public function __construct(string $name, string $age)
    {
        $this->age = $age;
