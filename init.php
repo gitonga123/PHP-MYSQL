@@ -25,9 +25,13 @@
 //
 //var_dump($customer1::getLastId());
 //var_dump(Customer::getLastId());
-
+require 'Person.php';
 $object = new stdClass();
 
 $object->name = 'John';
 
 echo $object->name;
+
+$person1 = new Person("James Warungu", 35);
+
+$person1->sentence();
