@@ -36,6 +36,7 @@
 //
 //$person1->sentence();
 
+
 //require 'Collection.php';
 //require 'TalkInterface.php';
 //require 'Cat.php';
@@ -71,3 +72,16 @@ require 'Foo.php';
 
 $foo = Bar();
 echo $foo->bar();
+// Dependency Injection
+require 'Lock.php';
+require 'Chest.php';
+
+// $pigeon = new Pigeon(true, 2);
+
+// if ($pigeon->isCanFly()) {
+//     echo "can fly";
+// }
+
+$chest = new Chest(new Lock);
+
+$chest->close();
