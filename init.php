@@ -51,11 +51,11 @@ $cat = new Dog();
 $dog = new Cat();
 
 
-$c->animal = "cow";
+$c->animals = "cow";
 
 //echo "<pre>"; print_r($c->all(), true);
-echo $c->getItems('animal');
-echo $c->animal;
+echo $c->getItems('animals');
+echo $c->animals;
 //$c->add('foo');
 //$c->add('bar');
 
