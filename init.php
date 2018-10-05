@@ -37,6 +37,9 @@
 //$person1->sentence();
 
 require 'Collection.php';
+require 'TalkInterface.php';
+require 'Cat.php';
+require 'Dog.php';
 //
 //$pigeon = new Pigeon(true, 2);
 //
@@ -44,9 +47,13 @@ require 'Collection.php';
 //    echo "can fly";
 //}
 $c = new Collection();
+$cat = new Dog();
+$dog = new Cat();
 
 $c->add('foo');
 $c->add('bar');
 
-echo count($c);
-echo json_encode($c);
+//echo count($c);
+//echo json_encode($c);
+
+echo "Cat => " .$cat->talk() . "<br />" . "Dog => " . $dog->talk();
