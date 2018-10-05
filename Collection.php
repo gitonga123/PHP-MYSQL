@@ -54,4 +54,9 @@ class Collection implements Countable, JsonSerializable
     {
        return $this->getItems($key);
     }
+
+    public function __call($func, $args)
+    {
+        echo $func . 'with arguments' . implode(',', $args);
+    }
 }
