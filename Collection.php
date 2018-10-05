@@ -59,4 +59,10 @@ class Collection implements Countable, JsonSerializable
     {
         echo $func . 'with arguments' . implode(',', $args);
     }
+
+    public function __toString()
+    {
+        // TODO: Implement __toString() method.
+        return $this->jsonSerialize();
+    }
 }

@@ -56,6 +56,7 @@ $c->animals = "cow";
 //echo "<pre>"; print_r($c->all(), true);
 echo $c->getItems('animals');
 echo $c->foo('baar','baars','baarz','baarzo','baarizo','barizok');
+echo $c;
 //$c->add('foo');
 //$c->add('bar');
 
