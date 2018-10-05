@@ -50,10 +50,16 @@ $c = new Collection();
 $cat = new Dog();
 $dog = new Cat();
 
-$c->add('foo');
-$c->add('bar');
+
+$c->animal = "cow";
+
+//echo "<pre>"; print_r($c->all(), true);
+echo $c->getItems('animal');
+echo $c->animal;
+//$c->add('foo');
+//$c->add('bar');
 
 //echo count($c);
 //echo json_encode($c);
 
-echo "Cat => " .$cat->talk() . "<br />" . "Dog => " . $dog->talk();
+//echo "Cat => " .$cat->talk() . "<br />" . "Dog => " . $dog->talk();

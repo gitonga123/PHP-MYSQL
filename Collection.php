@@ -19,7 +19,7 @@ class Collection implements Countable, JsonSerializable
      * @param array $items,
      * @param $key
      */
-    public function setItems($key, array $items): void
+    public function setItems($key, $items): void
     {
         $this->items[$key] = $items;
     }
@@ -33,5 +33,25 @@ class Collection implements Countable, JsonSerializable
     {
         // TODO: Implement count() method.
         return count($this->items);
+    }
+
+    public function __set($key, $value)
+    {
+        $this->setItems($key, $value);
+    }
+
+    public function all()
+    {
+        return $this->items;
+    }
+
+    public function getItems($key)
+    {
+        return array_key_exists($key, $this->items) ? $this->items[$key] : null;
+    }
+
+    public function __get($key)
+    {
+       return $this->getItems($key);
     }
 }
