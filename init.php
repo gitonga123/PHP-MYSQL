@@ -36,10 +36,17 @@
 //
 //$person1->sentence();
 
-require 'Pigeon.php';
+require 'Collection.php';
+//
+//$pigeon = new Pigeon(true, 2);
+//
+//if ($pigeon->isCanFly()) {
+//    echo "can fly";
+//}
+$c = new Collection();
 
-$pigeon = new Pigeon(true, 2);
+$c->add('foo');
+$c->add('bar');
 
-if ($pigeon->isCanFly()) {
-    echo "can fly";
-}
+echo count($c);
+echo json_encode($c);
