@@ -67,14 +67,10 @@
 
 //echo "Cat => " .$cat->talk() . "<br />" . "Dog => " . $dog->talk();
 
-require 'Bar.php';
-require 'Foo.php';
 
-$foo = Bar();
-echo $foo->bar();
 // Dependency Injection
-require 'Lock.php';
-require 'Chest.php';
+//require 'Lock.php';
+//require 'Chest.php';
 
 // $pigeon = new Pigeon(true, 2);
 
@@ -82,6 +78,15 @@ require 'Chest.php';
 //     echo "can fly";
 // }
 
-$chest = new Chest(new Lock);
+//$chest = new Chest(new Lock);
+//
+//$chest->close();
 
-$chest->close();
+require 'Bar.php';
+//require 'Foo.php';
+//
+//$bar = new Bar();
+
+//echo $bar->barz();
+
+echo Bar::barz();

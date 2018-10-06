@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ann Mutwiri
- * Date: 05-Oct-18
- * Time: 8:51 AM
- */
+
+namespace Bookstore;
 
 abstract class Foo
 {

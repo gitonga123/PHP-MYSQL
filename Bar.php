@@ -1,15 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ann Mutwiri
- * Date: 05-Oct-18
- * Time: 8:54 AM
- */
-require 'Foo.php';
-class Bar extends Foo
+
+
+class Bar
 {
-    public function barz()
+    public static $bar = 'Foobar';
+    public static function barz()
     {
-        return "Baaz";
+        return self::$bar;
     }
 }
