@@ -6,7 +6,7 @@
  * Time: 8:27 AM
  */
 
-namespace Calculator;
+//namespace Calculator;
 
 
 class Multiplier  implements OperatorInterface

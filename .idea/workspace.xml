@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="727a00d0-26b6-40fa-bcff-412054f53408" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculator/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/Adder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/Calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/Divider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/Multiplier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/OperatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/src/Subtractor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,27 +30,27 @@
         <counts>
           <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="php" value="23" />
+          <entry key="php" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="23" />
+          <entry key="PHP" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="125" />
-          <entry key="php" value="2659" />
+          <entry key="php" value="2732" />
           <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="125" />
-          <entry key="PHP" value="2659" />
+          <entry key="PHP" value="2732" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -79,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Calculator/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -186,6 +189,7 @@
         <option value="$PROJECT_DIR$/Calculator/src/Divider.php" />
         <option value="$PROJECT_DIR$/Calculator/src/Multiplier.php" />
         <option value="$PROJECT_DIR$/Calculator/index.php" />
+        <option value="$PROJECT_DIR$/Calculator/init.php" />
       </list>
     </option>
   </component>
@@ -239,6 +243,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP-MYSQL\Calculator" />
       <recent name="C:\xampp\htdocs\PHP-MYSQL" />
     </key>
   </component>
@@ -266,7 +271,7 @@
       <updated>1538627565636</updated>
       <workItem from="1538627567107" duration="3101000" />
       <workItem from="1538715870012" duration="3919000" />
-      <workItem from="1538801284440" duration="4148000" />
+      <workItem from="1538801284440" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="OOP IN PHP first commit">
       <created>1538628930505</created>
@@ -279,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11168000" />
+    <option name="totallyTimeSpent" value="11564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,8 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>

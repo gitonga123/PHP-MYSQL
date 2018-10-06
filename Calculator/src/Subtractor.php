@@ -6,7 +6,7 @@
  * Time: 8:26 AM
  */
 
-namespace Calculator;
+//namespace Calculator;
 
 
 class Subtractor implements OperatorInterface

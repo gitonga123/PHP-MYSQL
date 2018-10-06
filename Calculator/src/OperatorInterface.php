@@ -6,7 +6,7 @@
  * Time: 8:25 AM
  */
 
-namespace Calculator;
+//namespace Calculator;
 
 
 interface OperatorInterface
