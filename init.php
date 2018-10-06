@@ -85,8 +85,6 @@
 require 'Bar.php';
 //require 'Foo.php';
 //
-//$bar = new Bar();
+$bar = new Bar();
 
-//echo $bar->barz();
-
-echo Bar::barz();
+echo $bar->bar()->baz();

@@ -4,8 +4,14 @@
 class Bar
 {
     public static $bar = 'Foobar';
-    public static function barz()
+    public function bar()
     {
-        return self::$bar;
+        echo self::$bar;
+        return $this;
+    }
+
+    public function baz()
+    {
+        echo ' food';
     }
 }
