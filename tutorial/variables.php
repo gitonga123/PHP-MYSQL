@@ -10,7 +10,7 @@
    echo "<pre>";
    var_dump($a);
 
-   $b = 56;
+   $b = 5;
 echo "<pre>";
    var_dump(intval($b));
 echo "<pre>";
@@ -41,3 +41,12 @@ echo "<pre>";
 var_dump(__TRAIT__);
 echo "<pre>";
 var_dump(__NAMESPACE__);
+$b = 1;
+echo "<pre>";
+var_dump($b++);
+echo "<pre>";
+var_dump(++$b);
+echo "<pre>";
+var_dump($b--);
+echo "<pre>";
+var_dump(--$b);
