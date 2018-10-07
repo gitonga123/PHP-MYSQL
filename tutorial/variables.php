@@ -1,5 +1,5 @@
 <?php
-
+//type casting explicitly
    $a = '1234';
    echo "<pre>";
    var_dump($a);
@@ -9,7 +9,7 @@
    $a = (bool)$a;
    echo "<pre>";
    var_dump($a);
-
+//type casting using functions
    $b = 5;
 echo "<pre>";
    var_dump(intval($b));
@@ -27,6 +27,7 @@ echo "<pre>";
    var_dump(settype($a, 'string'));
 echo "<pre>";
    var_dump($a);
+   //magic constants
 echo "<pre>";
 var_dump(__LINE__);
 echo "<pre>";
@@ -41,6 +42,8 @@ echo "<pre>";
 var_dump(__TRAIT__);
 echo "<pre>";
 var_dump(__NAMESPACE__);
+
+//prefix, postfix
 $b = 1;
 echo "<pre>";
 var_dump($b++);
@@ -50,3 +53,8 @@ echo "<pre>";
 var_dump($b--);
 echo "<pre>";
 var_dump(--$b);
+
+//space shift operator
+var_dump(1 <=> 2); //output -1
+var_dump(1 <=> 1); //output 0
+var_dump(1 <=> 0); //output 1
