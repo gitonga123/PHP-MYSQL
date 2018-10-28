@@ -9,3 +9,6 @@ if (true) {
 
 console.log(a); // undefined out of scope.
 console.log(b); // 35
+
+const = 50;
+a = 60 ; // shows error. you cannot change the value of const

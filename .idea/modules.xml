@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PHP-MYSQL.iml" filepath="$PROJECT_DIR$/.idea/PHP-MYSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eloquent/.idea/eloquent.iml" filepath="$PROJECT_DIR$/../eloquent/.idea/eloquent.iml" />
     </modules>
   </component>
 </project>
