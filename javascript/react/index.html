@@ -10,16 +10,25 @@
 <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 
 <script type="text/babel">
-	const rootElement = document.getElementById('root');
-	let Message = props => <div>{props.children}</div>; 
-	
-	const element = (
-		<div className="container">
-			<Message> Hello World</Message>
-			<Message>GoodBye World </Message>
-		</div>
-	);
-	ReactDOM.render(element, rootElement)
+	function SayHello(props) {
+		return (
+			<div>
+				Hello {props.firstName} {props.lastName}!
+			</div>
+		)
+	}
+	SayHello.propTypes = {
+		firstName(props, propName, componentName) {
+			if (typeof props[propName] !== 'string') {
+				return new Error(`Hey you, you should a pass a string for ${propName}
+				 in ${componentName} but you passed a ${typeof props[propName]}`)
+			}
+		}
+	}
+	ReactDOM.render(
+		<SayHello firstName={true} />
+		document.getElementById('root');
+	)
 </script>
 </body>
 </html>
