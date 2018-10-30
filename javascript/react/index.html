@@ -11,14 +11,14 @@
 
 <script type="text/babel">
 	const rootElement = document.getElementById('root');
-	let content = "Hello World";
-	const props = {
-		className: 'container',
-		children: 'Hello World',
-	}
-	const element = {
-		<div {...props} className="my-class" />
-	}
+	let Message = props => <div>{props.children}</div>; 
+	
+	const element = (
+		<div className="container">
+			<Message> Hello World</Message>
+			<Message>GoodBye World </Message>
+		</div>
+	);
 	ReactDOM.render(element, rootElement)
 </script>
 </body>
