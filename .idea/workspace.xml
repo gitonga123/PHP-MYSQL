@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="727a00d0-26b6-40fa-bcff-412054f53408" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript/101/looping_trangle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/101/fizz_buzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/101/fizz_buzz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/101/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/101/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eloquent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../eloquent/README.md" afterDir="false" />
     </list>
@@ -40,7 +39,7 @@
           <entry key="env" value="1" />
           <entry key="example" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="3" />
+          <entry key="js" value="4" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
           <entry key="php" value="57" />
@@ -50,7 +49,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="57" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -60,8 +59,8 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="env" value="4" />
-          <entry key="html" value="70" />
-          <entry key="js" value="436" />
+          <entry key="html" value="73" />
+          <entry key="js" value="703" />
           <entry key="md" value="125" />
           <entry key="php" value="8821" />
           <entry key="txt" value="114" />
@@ -69,8 +68,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="70" />
-          <entry key="JavaScript" value="436" />
+          <entry key="HTML" value="73" />
+          <entry key="JavaScript" value="703" />
           <entry key="Markdown" value="125" />
           <entry key="PHP" value="8821" />
           <entry key="PLAIN_TEXT" value="120" />
@@ -86,15 +85,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../eloquent/database/migrations/2018_10_19_044504_update_users_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../eloquent/database/factories/ModelFactory.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/101/looping_trangle.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -167,11 +157,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/101/fizz_buzz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/101/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -203,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Person.php" />
         <option value="$PROJECT_DIR$/.vscode/Bird.php" />
         <option value="$PROJECT_DIR$/Pigeon.php" />
         <option value="$PROJECT_DIR$/Bird.php" />
@@ -252,8 +250,9 @@
         <option value="$PROJECT_DIR$/../eloquent/app/User.php" />
         <option value="$PROJECT_DIR$/javascript/101/intro.js" />
         <option value="$PROJECT_DIR$/javascript/101/looping.js" />
-        <option value="$PROJECT_DIR$/javascript/101/index.html" />
         <option value="$PROJECT_DIR$/javascript/101/looping_trangle.js" />
+        <option value="$PROJECT_DIR$/javascript/101/index.html" />
+        <option value="$PROJECT_DIR$/javascript/101/fizz_buzz.js" />
       </list>
     </option>
   </component>
@@ -353,7 +352,7 @@
       <workItem from="1540015114834" duration="2012000" />
       <workItem from="1540611781443" duration="4048000" />
       <workItem from="1540959966218" duration="1113000" />
-      <workItem from="1541046648879" duration="3162000" />
+      <workItem from="1541046648879" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="OOP IN PHP first commit">
       <created>1538628930505</created>
@@ -373,7 +372,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40098000" />
+    <option name="totallyTimeSpent" value="40795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,13 +443,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="VARIABLES = scalar, composite &amp; Resource" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -765,6 +757,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/101/looping_trangle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/101/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/101/looping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -772,17 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/101/index.html">
+    <entry file="file://$PROJECT_DIR$/javascript/101/fizz_buzz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/101/looping_trangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
