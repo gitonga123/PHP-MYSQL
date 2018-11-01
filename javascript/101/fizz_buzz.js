@@ -1,16 +1,14 @@
 let counter = 100;
 
 while (counter >= 1) {
+	  let message = '';
     if (counter % 3 ===  0)
-        console.log('Fizz');
+        message += 'Fizz'
 
     else if (counter % 5 === 0)
-        console.log("Buzz");
+        message += 'Buzz';
 
-    else if ((counter % 3 === 0) && (counter % 5 === 0))
-        console.log("FizzBuzz");
-    else
-        console.log(counter);
+    console.log(message || counter);
 
     counter--;
 }
