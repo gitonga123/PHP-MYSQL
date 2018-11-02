@@ -1,3 +1,5 @@
+// functions can be creaded inside other functions,
+// producing several degrees of locality.
 var landscape = function () {
   var result = '';
 
