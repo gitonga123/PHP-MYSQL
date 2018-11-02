@@ -1,4 +1,5 @@
 // Recursion, a function that calls itself
+// power = return 2 ** 16
 function power(base, exponent) {
   if (exponent == 0) {
     return 1;
@@ -7,4 +8,4 @@ function power(base, exponent) {
   }
 }
 
-console.log(power(2, 3));
+console.log(power(2, 16));
