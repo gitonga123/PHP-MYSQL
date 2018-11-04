@@ -61,3 +61,7 @@ console.log(stooge.equipment.hasOwnProperty('status'));
 console.log(stooge.hasOwnProperty('status'));
 
 console.log(another_stooge.hasOwnProperty('payment'));
+
+for (stooged of stooges) {
+  console.log(stooged);
+}
