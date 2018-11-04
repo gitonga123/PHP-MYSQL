@@ -1,0 +1,40 @@
+// object update
+var stooge = {
+  firstName: 'Jerome',
+  lastName: 'Howard',
+  equipment: {
+    model: 'Boeing 777',
+    status: 'new',
+    time: '11:00'
+  }
+}
+
+console.log(stooge.firstName);
+console.log(stooge.lastName);
+console.log(stooge.equipment.time);
+stooge['mildleName'] = 'Lester';
+stooge.equipment.return_time = '13:00'
+
+console.log(stooge.mildleName);
+console.log(stooge.equipment.return_time);
+
+// objects are passed around by reference never copied
+var x = stooge;
+x.nickname = 'Curly';
+var nick = stooge.nickname;
+
+console.log(x.nickname);
+console.log(nick);
+console.log(x.equipment.time);
+
+var a = {}, b = {}, c = {}; // they refer to very different objects
+var a = b = c = {}; // they refer to same empty object
+stooge.payment = {
+  status: 'paid'
+};
+stooge.payment.status = "paid";
+stooge.payment.amount = 5000;
+var amount_paid = stooge.payment.amount || 5000;
+console.log(amount_paid);
+
+console.log(stooge.payment.status);
