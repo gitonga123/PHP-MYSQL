@@ -53,4 +53,11 @@ console.log(another_stooge);
 stooge.profession = 'actor';
 console.log(another_stooge.profession);
 
+// check if a certain object has a given property
 console.log(stooge.hasOwnProperty('firstName'));
+
+console.log(stooge.equipment.hasOwnProperty('status'));
+
+console.log(stooge.hasOwnProperty('status'));
+
+console.log(another_stooge.hasOwnProperty('payment'));
