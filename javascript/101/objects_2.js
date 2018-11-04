@@ -52,3 +52,5 @@ var another_stooge = Object.create(stooge);
 console.log(another_stooge);
 stooge.profession = 'actor';
 console.log(another_stooge.profession);
+
+console.log(stooge.hasOwnProperty('firstName'));
