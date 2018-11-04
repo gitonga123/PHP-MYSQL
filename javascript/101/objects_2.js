@@ -38,3 +38,17 @@ var amount_paid = stooge.payment.amount || 5000;
 console.log(amount_paid);
 
 console.log(stooge.payment.status);
+
+// using prototype
+if (typeof Object.create !== 'function') {
+  Object.create = function(o) {
+    var F = function () {};
+    f.prototype = o;
+    return new F();
+  };
+}
+
+var another_stooge = Object.create(stooge);
+console.log(another_stooge);
+stooge.profession = 'actor';
+console.log(another_stooge.profession);
