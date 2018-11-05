@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="727a00d0-26b6-40fa-bcff-412054f53408" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/javascript/101/fizz_buzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/101/fizz_buzz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/101/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/101/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eloquent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../eloquent/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="727a00d0-26b6-40fa-bcff-412054f53408" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +15,7 @@
     <session id="-1965790993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -60,7 +56,7 @@
           <entry key="dummy" value="2" />
           <entry key="env" value="4" />
           <entry key="html" value="73" />
-          <entry key="js" value="703" />
+          <entry key="js" value="734" />
           <entry key="md" value="125" />
           <entry key="php" value="8821" />
           <entry key="txt" value="114" />
@@ -69,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="73" />
-          <entry key="JavaScript" value="703" />
+          <entry key="JavaScript" value="734" />
           <entry key="Markdown" value="125" />
           <entry key="PHP" value="8821" />
           <entry key="PLAIN_TEXT" value="120" />
@@ -152,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/javascript/101/looping_trangle.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -160,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/101/fizz_buzz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -170,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/javascript/101/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -352,7 +348,7 @@
       <workItem from="1540015114834" duration="2012000" />
       <workItem from="1540611781443" duration="4048000" />
       <workItem from="1540959966218" duration="1113000" />
-      <workItem from="1541046648879" duration="3859000" />
+      <workItem from="1541046648879" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="OOP IN PHP first commit">
       <created>1538628930505</created>
@@ -372,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40795000" />
+    <option name="totallyTimeSpent" value="41574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,14 +756,14 @@
     <entry file="file://$PROJECT_DIR$/javascript/101/looping_trangle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/101/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -780,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/101/fizz_buzz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
