@@ -10,9 +10,14 @@ let isNumber = isNaN(number);
 console.log(isNumber);
 let safeInteger = Number.isSafeInteger(number);
 console.log(safeInteger);
-
+// Returns a string representing the number to a specified precision 
 function precise(x) {
 	return Number.parseFloat(x).toPrecision(4);
 }
 
-console.log(precise(123.456)); 
+console.log(precise(123.456));
+
+function financial(x) {
+	return Number.parseFloat(x).toFixed(2);
+}
+console.log(financial(123.456));
