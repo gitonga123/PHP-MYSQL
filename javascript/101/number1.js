@@ -10,3 +10,9 @@ let isNumber = isNaN(number);
 console.log(isNumber);
 let safeInteger = Number.isSafeInteger(number);
 console.log(safeInteger);
+
+function precise(x) {
+	return Number.parseFloat(x).toPrecision(4);
+}
+
+console.log(precise(123.456)); 
