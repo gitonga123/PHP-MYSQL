@@ -11,3 +11,6 @@ console.log(mystring.charAt(6));
 // this methods returns an integer between 0 and 65536  
 // representing the string at the given index
 console.log(mystring.charCodeAt(6));
+// codePointAt method returns a non-negative integer that is the
+// Unicode point value
+console.log(mystring.codePointAt(6));
