@@ -24,3 +24,16 @@ console.log(indexOfFirst);
 // returns the index within the calling String object of the
 // last occurrence of the specified values, searches backwards
 console.log(mystring.lastIndexOf(searchTearm));
+// startsWith method determines whether a string
+// begins with the characters of a specified stirng, retu
+// return true or false as /
+console.log(mystring.startsWith('HE'));
+console.log(mystring.startsWith('Ke'));
+
+// ends with the characters of a specified string
+console.log(mystring.endsWith('NY', 1));
+console.log(mystring.endsWith('YA'));
+// DETERMINES whether one string may be found withing another string
+// return true or false
+console.log(mystring.includes('HELLO'));
+// all this methods are case sensitive
