@@ -1,4 +1,4 @@
 config/*
-vendor/
-.idea
-.vscode
+vendor/*
+.idea/*
+.vscode/*
