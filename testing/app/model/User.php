@@ -8,6 +8,7 @@ namespace App\Models;
 class User
 {
     private $first_name;
+    private $last_name;
 
     public function setFirstName($first_name)
     {
@@ -17,5 +18,20 @@ class User
     public function getFirstName()
     {
         return $this->first_name;
+    }
+
+    public function setLastName($last_name)
+    {
+        $this->last_name = $last_name;
+    }
+
+    public function getLastName()
+    {
+        return $this->last_name;
+    }
+
+    public function fullName()
+    {
+        return $this->first_name . " " . $this->last_name;
     }
 }
