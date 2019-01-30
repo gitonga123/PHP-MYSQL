@@ -1,6 +1,6 @@
 <?php
 
-$greetings = "Hellow World";
+$greetings = "Hello'w World";
 echo "\n";
 // this functions returns the length of a string
 echo strlen($greetings);
@@ -24,3 +24,5 @@ echo str_replace("World", "Dolly", "Hello World!");
 $str = addcslashes($greetings, "d");
 
 echo $str;
+
+echo addslashes($greetings);
