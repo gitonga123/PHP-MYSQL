@@ -1,6 +1,6 @@
 <?php
 
-$greetings = "Hello'w World";
+$greetings = "Hello'w World ";
 echo "\n";
 // this functions returns the length of a string
 echo strlen($greetings);
@@ -26,3 +26,6 @@ $str = addcslashes($greetings, "d");
 echo $str;
 
 echo addslashes($greetings);
+
+// chop function removes whitespaces or other predefined characters form the right end of a string
+echo chop($greetings);
