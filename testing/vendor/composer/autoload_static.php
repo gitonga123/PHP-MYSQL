@@ -76,6 +76,7 @@ class ComposerStaticInit85b6ee090fc3fb97e499308831e3fd01
 
     public static $classMap = array (
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/model/User.php',
+        'App\\Support\\Collection' => __DIR__ . '/../..' . '/app/support/Collection.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
