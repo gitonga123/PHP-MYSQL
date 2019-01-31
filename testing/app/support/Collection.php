@@ -4,14 +4,19 @@ namespace App\Support;
 
 use IteratorAggregate;
 use ArrayIterator;
+use JsonSerializable;
 
 /**
  * Collection Class - i.e Similar to Laravel Collection Classes
  */
-class Collection implements IteratorAggregate
+class Collection implements IteratorAggregate, JsonSerializable
 {
     protected $items = [];
 
+    public function __construct(array $items = [])
+    {
+        $this->items = $items;
+    }
     public function get(): array
     {
         return $this->items;
@@ -45,5 +50,10 @@ class Collection implements IteratorAggregate
     public function toJson()
     {
         return json_encode($this->items);
+    }
+
+    public function jsonSerialize()
+    {
+        return $this->items;
     }
 }

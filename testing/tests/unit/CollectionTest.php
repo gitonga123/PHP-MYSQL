@@ -6,6 +6,7 @@ use PHPUnit\Framework\TestCase;
 use App\Support\Collection;
 use IteratorAggregate;
 use ArrayIterator;
+use JsonSerializable;
 
 /**
  * Collection Test
@@ -16,8 +17,7 @@ class CollectionTest extends TestCase
 
     public function setUp()
     {
-        $this->collection = new Collection();
-        $this->collection->set([
+        $this->collection = new Collection([
           'one', 'two', 'three'
         ]);
     }
@@ -86,5 +86,18 @@ class CollectionTest extends TestCase
         ]);
         $this->assertInternalType('string', $this->collection->toJson());
         $this->assertEquals('[{"username":"alex"},{"username":"daniel"},{"username":"james"}]', $this->collection->toJson());
+    }
+
+    public function testJsonEncodingACollectionObjectReturnsJson()
+    {
+        $this->collection->set([
+           ['username' => 'alex'],
+           ['username' => 'daniel'],
+           ['username' => 'james'],
+        ]);
+
+        $encoded = json_encode($this->collection->get());
+        $this->assertInternalType('string', $encoded);
+        $this->assertEquals('[{"username":"alex"},{"username":"daniel"},{"username":"james"}]', $encoded);
     }
 }
