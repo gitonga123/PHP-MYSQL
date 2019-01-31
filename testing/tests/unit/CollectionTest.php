@@ -76,4 +76,15 @@ class CollectionTest extends TestCase
         $this->assertEquals(5, $this->collection->count());
         $this->assertCount(5, $this->collection->get());
     }
+
+    public function testReturnsJsonEncodedItems()
+    {
+        $this->collection->set([
+           ['username' => 'alex'],
+           ['username' => 'daniel'],
+           ['username' => 'james'],
+        ]);
+
+        $this->assertEquals('[{"username":"alex"},{"username":"daniel"},{"username":"james"}]', $this->collection->toJson());
+    }
 }

@@ -41,4 +41,9 @@ class Collection implements IteratorAggregate
     {
         $this->items = array_merge($this->items, $items);
     }
+
+    public function toJson()
+    {
+        return json_encode($this->items);
+    }
 }
