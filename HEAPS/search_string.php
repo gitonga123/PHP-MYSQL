@@ -1,6 +1,6 @@
 <?php
 
-$my_string = "aaabbcd";
+$my_string = "aabbbabbcdeefffh";
 
 // O(n2)
 $count = 0;
